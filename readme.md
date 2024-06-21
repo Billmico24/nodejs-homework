@@ -1,14 +1,25 @@
-## GoIT Node.js Course Template Homework
+# goit-node-hw-02
 
-Please fork this repository to complete your homework assignments (2-6).
-Forking will create a repository on your http://github.com account.
+## List contacts action
 
-## Expalanation Recording to hanle homeworks in the Node.js Block
-[Watch the video](https://www.loom.com/share/007c97d271604e02ae61adbb5b69edd3)
+![get list contact](./images/get1.png)
 
-### Commands:
+## Get contact by id
 
-- `npm start` &mdash; starts the server in production mode.
-- `npm run start:dev` &mdash; starts the server in development mode.
-- `npm run lint` &mdash; runs eslint to check the code. Make sure to execute this before each PR and fix all linting errors.
-- `npm lint:fix` &mdash; same as the previous command but fixes simple linting errors automatically.
+![get id contact](./images/get2.png)
+
+## Add the contact
+
+![add contact](./images/post.png)
+![add contact](./images/post.delete.png)
+
+## Delete the contact
+
+![delete contact](./images/delete.png)
+![delete contact](./images/delete.put.png)
+
+
+## Updated the contact
+
+![update contact](./images/put.png)
+![update contact](./images/put2.png)
