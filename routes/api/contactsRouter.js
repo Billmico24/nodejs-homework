@@ -1,25 +1,27 @@
 import express from "express";
+import { ctrlWrapper } from "../../helpers/ctrlWrapper.js";
 import {
-  getContacts,
-  getContactById,
   addContact,
-  deleteContact,
-  updateContact,
-  updateFavoriteStatus,
+  deleteContactById,
+  getAllContacts,
+  getContactById,
+  updateContactById,
+  updateStatusContact,
 } from "../../controllers/contactsController.js";
+import { authenticateToken } from "../../middlewares/authenticateToken.js";
 
 const router = express.Router();
 
-router.get("/", getContacts);
+router.get("/", ctrlWrapper(getAllContacts));
 
-router.get("/:contactId", getContactById);
+router.get("/:contactId", authenticateToken, ctrlWrapper(getContactById));
 
-router.post("/", addContact);
+router.post("/", authenticateToken, ctrlWrapper(addContact));
 
-router.delete("/:contactId", deleteContact);
+router.delete("/:contactId", authenticateToken, ctrlWrapper(deleteContactById));
 
-router.put("/:contactId", updateContact);
+router.put("/:contactId", authenticateToken, ctrlWrapper(updateContactById));
 
-router.patch("/:contactId/favorite", updateFavoriteStatus);
+router.patch("/:contactId/favorite", authenticateToken, ctrlWrapper(updateStatusContact));
 
 export { router };

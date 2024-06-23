@@ -1,4 +1,4 @@
-# goit-node-hw-02
+# goit-node-hw-04-auth
 
 ## List contacts action
 
@@ -29,4 +29,38 @@
 
 ![update favorite](./images/status.png)
 ![update favorite](./images/mstatus.png)
+
+## Post User Sign up
+
+![ USER SIGN UP ](./images/postsignup.png)
+
+## Post User Login
+
+![user Login](./images/postlogin.png)
+![user Login MongoDB reflection](./images/postloginM.png)
+
+## Get User Logout
+
+![user logout](./images/getlogout.png)
+
+## Get User Current
+
+![update favorite](./images/getcurrent.png)
+
+## Pagination
+
+![Pagination 1 & 20](./images/getpagination1&20.png)
+![Pagination 2 & 2](./images/getpagination2&2.png)
+
+## Pagination Favorites list "true"
+
+![Favorites list "true"](./images/getfavtrue.png)
+
+## Update Subcription Status
+
+![update Subcription](./images/patchsubpro.png)
+![update Subcription MongoDB reflect](./images/patchsubprom.png)
+
+
+
 
