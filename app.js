@@ -12,6 +12,9 @@ app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 
+// open http://localhost:3000/avatars/ "image" on browser
+app.use(express.static("public"));
+
 app.use("/api/contacts", contactsRouter);
 app.use("/api/users", usersRouter);
 
