@@ -13,5 +13,5 @@
 ## Patching Avatar Image
 
 ![Patch avatar](./images/patchavatars.png)
-![MongoDB compass users](./images/mavatar.png)
+![MongoDB compass users](./images/mavatars.png)
 
