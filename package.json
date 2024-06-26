@@ -7,7 +7,8 @@
     "start": "cross-env NODE_ENV=production node ./server.js",
     "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
     "lint": "eslint **/*.js",
-    "lint:fix": "eslint --fix **/*.js"
+    "lint:fix": "eslint --fix **/*.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -16,7 +17,6 @@
     "cross-env": "7.0.3",
     "dotenv": "^16.4.5",
     "express": "4.17.1",
-    "fs": "^0.0.1-security",
     "gravatar": "^1.8.2",
     "jimp": "^0.22.12",
     "joi": "^17.13.3",
@@ -24,9 +24,7 @@
     "mongoose": "^8.4.3",
     "morgan": "1.10.0",
     "multer": "^1.4.5-lts.1",
-    "nanoid": "^5.0.7",
-    "path": "^0.12.7",
-    "shortid": "^2.2.16",
+    "nodemailer": "^6.9.14",
     "uuid": "^10.0.0"
   },
   "devDependencies": {

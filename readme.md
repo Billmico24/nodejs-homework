@@ -1,17 +1,20 @@
-# goit-node-hw-05-avatars
+# goit-node-hw-06-email
 
 ## Signing up with post
 
 ![post login](./images/postsignup.png)
-![MongoDB compass users](./images/msignup.png)
+![MongoDB compass users](./images/musersignedup.png)
+
+
+## Email Verification
+
+![Verification](./images/verificationemail.png)
 
 ## Logging in with post
 
 ![Post Login](./images/postlogin.png)
-![MongoDB compass users](./images/mlogin.png)
 
-## Patching Avatar Image
+## Post Verification
 
-![Patch avatar](./images/patchavatars.png)
-![MongoDB compass users](./images/mavatars.png)
+![Verified](./images/Postverification.png)
 
