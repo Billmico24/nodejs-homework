@@ -3,7 +3,7 @@
 ## Signing up with post
 
 ![post login](./images/postsignup.png)
-![MongoDB compass users](./images/musersignedup.png)
+![MongoDB compass Login](./images/Musersignedup.png)
 
 
 ## Email Verification
